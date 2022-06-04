@@ -56,21 +56,35 @@ Error generating stack: `+o.message+`
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */var ym=Wt.exports,gm=Symbol.for("react.element"),wm=Symbol.for("react.fragment"),Sm=Object.prototype.hasOwnProperty,km=ym.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,xm={key:!0,ref:!0,__self:!0,__source:!0};function qf(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)Sm.call(t,r)&&!xm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:gm,type:e,key:o,ref:i,props:l,_owner:km.current}}zo.Fragment=wm;zo.jsx=qf;zo.jsxs=qf;os.exports=zo;const Te=os.exports.jsx,dn=os.exports.jsxs,Cm=ft.div`
-  width: 1110px;
+  width: 100%;
   height: 446px;
   box-shadow: 0px 20px 20px -10px;
   border-radius: 8px;
   background: #1b1937;
   box-sizing: border-box;
-  
+
   margin-top: 179px;
   margin-bottom: 175px;
   margin-left: 165px;
-  margin-right: 75px;
+  margin-right: 165px;
+
+  @media (min-width: 375px) {
+    width: 327px;
+    height: 780px;
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-bottom: 88px;
+    margin-right: 24px;
+  }
 `,Em=ft.div`
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   margin-top: 67px;
   margin-left: 72px;
+
+  @media (min-width: 375px) {
+    margin-top: 280px;
+    margin-left: 31.5px;
+  }
 `,_m=ft.h1`
   font-family: "Inter", sans-serif;
   color: #ffffff;
@@ -78,6 +92,12 @@ Error generating stack: `+o.message+`
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
+
+  @media (min-width: 375px) {
+    padding-right: 10px;
+    font-size: 25px;
+    line-height: 32px;
+  }
 `,Pm=ft.b`
   color: blueviolet;
 `,zm=ft.p`
@@ -90,11 +110,25 @@ Error generating stack: `+o.message+`
   mix-blend-mode: normal;
   opacity: 0.75;
   margin-top: 20px;
+
+  @media (min-width: 375px) {
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 25px;
+  }
 `,Nm=ft.div`
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   margin-top: 77px;
   margin-left: 72px;
   position: absolute;
+
+  @media (min-width: 375px) {
+    margin-top: -10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 `,ri=ft.span`
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -103,9 +137,20 @@ Error generating stack: `+o.message+`
   line-height: 29px;
   color: #ffffff;
   padding-right: 87px;
+
+  @media (min-width: 375px) {
+    padding-top: 40px;
+  }
 `,$m=ft.div`
-  box-sizing: border-box;
   
+  @media (min-width: 375px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 40px;
+    padding-left: 2px;
+  }
 `,li=ft.span`
   font-family: "Lexend Deca", sans-serif;
   font-style: normal;
@@ -119,14 +164,36 @@ Error generating stack: `+o.message+`
   opacity: 0.6;
   padding-top: 10px;
   padding-right: 68px;
-`,Tm=ft.div`
- box-sizing: border-box;
- position: absolute;
- display: flex;
- z-index: 2;
- mix-blend-mode: multiply;
- opacity: 0.75;
 
-`,Rm=ft.img`
-  padding-left: 570px;
-`;function Lm(){return Te("div",{className:"App",children:dn(Cm,{children:[Te(Tm,{children:Te(Rm,{src:vm})}),dn(Em,{children:[dn(_m,{children:["Get ",Te(Pm,{children:"insights "})," that help ",Te("br",{}),"your business grow."]}),dn(zm,{children:["Discover the benefits of data analytics and make ",Te("br",{}),"better decisions regarding revenue, customer ",Te("br",{}),"experience, and overall efficiency."]})]}),dn(Nm,{children:[Te(ri,{children:" 10k+"}),Te(ri,{children:" 314"}),Te(ri,{children:"12M+"}),dn($m,{children:[Te(li,{children:" Companies"}),Te(li,{children:"Templates"}),Te(li,{children:"Queries"})]})]})]})})}oi.createRoot(document.getElementById("root")).render(Te(Or.StrictMode,{children:Te(Lm,{})}));
+  @media (min-width: 375px) {
+    padding-top: 40px;
+  }
+`,Tm=ft.img`
+  padding-left: 478px;
+  position: absolute;
+  display: flex;
+
+  @media (min-width: 375px) {
+    width: 325px;
+    height: 246px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+`,Rm=ft.div`
+  opacity: 0.75;
+  background: blueviolet;
+  mix-blend-mode: multiply;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  width: 540px;
+  height: 446px;
+  margin-left: 478px;
+
+  @media (min-width: 375px) {
+    width: 325px;
+    height: 246px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+`;function Lm(){return Te("div",{className:"App",children:dn(Cm,{children:[Te(Tm,{src:vm}),Te(Rm,{}),dn(Em,{children:[dn(_m,{children:["Get ",Te(Pm,{children:"insights "})," that help ",Te("br",{}),"your business grow."]}),dn(zm,{children:["Discover the benefits of data analytics and make ",Te("br",{}),"better decisions regarding revenue, customer ",Te("br",{}),"experience, and overall efficiency."]})]}),dn(Nm,{children:[Te(ri,{children:" 10k+"}),Te(ri,{children:" 314"}),Te(ri,{children:"12M+"}),dn($m,{children:[Te(li,{children:" Companies"}),Te(li,{children:"Templates"}),Te(li,{children:"Queries"})]})]})]})})}oi.createRoot(document.getElementById("root")).render(Te(Or.StrictMode,{children:Te(Lm,{})}));
